@@ -66,5 +66,5 @@ Copyright (c) 2010. See LICENSE for details.
 [vg]: http://vgoff.posterous.com/
 [uo]: http://twitter.com/ugisozols
 [ea]: https://github.com/explosiveamber
-[cc]: http://http://creativecommons.org/licenses/by-sa/3.0/us/
+[cc]: http://creativecommons.org/licenses/by-sa/3.0/us/
 
