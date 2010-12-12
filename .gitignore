@@ -1,3 +1,5 @@
+.komodotools
+roodle_lms.komodoproject
 Gemfile.lock
 .bundle
 db/*.sqlite3
