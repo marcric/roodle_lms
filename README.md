@@ -1,11 +1,9 @@
 # Roodle
 
-## Aka: Moodle in Rails
-
 ### What is a Roodle?
 
 * Roodle is a cross between a poodle and a rottweiler.
-* They are a successful creation of a breeder from Mel-ourne, Australia.
+* They are a successful creation of a breeder from Melbourne, Australia.
 * Fred Freeman has successfully bred 3 litters of roodles.
 
 ### What is it expected to be?
@@ -14,7 +12,7 @@
 
 ---
 
-[![Roodle][rdpic]]
+![Roodle][rdpic]
 
 ---
 
@@ -22,7 +20,7 @@
 
 It is a software application for the administration, documentation, tracking,
 and reporting of training programs, classroom and online events, e-learning
-programs, and training content
+programs, and training content.
 
 # Roodle LMS
 
@@ -41,22 +39,22 @@ _[Roodle LMS][rl]_
 
 # Who is behind this project?
 
-_**[Marcos Ricardo][mr]**_ have had the original idea in mid 2008 when RubyLearning full adopts Moodle in his site.
+_**[Marcos Ricardo][mr]**_ have had the original idea in mid 2008 when RubyLearning fully moves from mailing list to an LMS on their site.
 The idea was to create a simplified version of an LMS in Rails.
 
-_**[Victor Goff][vg]**_ have been presented to the idea in mid 2010.
+_**[Victor Goff][vg]**_ have been presented to the idea in mid 2008, and has been excited about it since.
 
 And now, sometime near 2010 Christmas they decide to start get things done, not alone of course, so, here is the current and former contributor list:
 
 * [Ugis Ozols][uo]
-* Ivan trionice97
+* [Ivan Furone][ea]
 
 
 ---
 
 ## License
 
-This project is released under the (**not yet decided**) License, including all CSS and design stuffs.
+This project is released under the [Creative Commons][cc] License, including all CSS and design stuffs.
 
 ## Copyright
 
@@ -67,3 +65,6 @@ Copyright (c) 2010. See LICENSE for details.
 [mr]: http://marcric.com
 [vg]: http://vgoff.posterous.com/
 [uo]: http://twitter.com/ugisozols
+[ea]: https://github.com/explosiveamber
+[cc]: http://http://creativecommons.org/licenses/by-sa/3.0/us/
+
