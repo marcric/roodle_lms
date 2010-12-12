@@ -6,7 +6,7 @@
 * They are a successful creation of a breeder from Melbourne, Australia.
 * Fred Freeman has successfully bred 3 litters of roodles.
 
-### What is it expected to be?
+###  So, what is *this* Roodle expected to be?
 
 * A **Roodle** should be smart like a Poodle and strong like a Rottweiler.
 
@@ -18,7 +18,7 @@
 
 # What is an LMS?
 
-It is a software application for the administration, documentation, tracking,
+As a Learning Management System, it is a software application for the administration, documentation, tracking,
 and reporting of training programs, classroom and online events, e-learning
 programs, and training content.
 
@@ -44,7 +44,7 @@ The idea was to create a simplified version of an LMS in Rails.
 
 _**[Victor Goff][vg]**_ have been presented to the idea in mid 2008, and has been excited about it since.
 
-And now, sometime near 2010 Christmas they decide to start get things done, not alone of course, so, here is the current and former contributor list:
+And now, sometime near 2010 Christmas we decide to start get things done, not alone of course, so, here is the current and former contributor list:
 
 * [Ugis Ozols][uo]
 * [Ivan Furone][ea]
