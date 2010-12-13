@@ -1,0 +1,249 @@
+/* gradient colored boxes */
+.gradwhite { /* Use for dark-colored background */
+  background-image: url(../images/grad_white.png);
+}
+.gradblack { /* Use for light-colored background */
+  background-image: url(../images/grad_black_30.png);
+}
+.blue { 
+  background-color: #2382a1; 
+}
+.green { 
+  background-color: #4be22d; 
+}
+.pink { 
+  background-color: #ff009d; 
+}
+.yellow {
+  background-color: yellow;
+}
+.gray {
+  background-color: gray;
+}
+
+/* === Horizontal navigation Bar === */
+ul.navBar ul{display:none}
+ul.navBar li:hover>ul{display:block}
+ul.navBar ul{position: absolute;left:-1px;top:98%;}
+ul.navBar ul ul{position: absolute;left:98%;top:-2px;}
+ul.navBar,ul.navBar ul {
+	margin:0px;
+	list-style:none;
+	padding:0px 2px 2px 0px;
+	background-repeat:repeat;
+	border-style:none;
+}
+ul.navBar table {border-collapse:collapse}ul.navBar {
+	display:block;
+	zoom:1;
+	float: left;
+}
+ul.navBar ul{
+	width:155.4px;
+}
+ul.navBar li{
+	display:block;
+	margin:0px 0px 0px 2px;
+	font-size:0px;
+}
+ul.navBar a:active, ul.navBar a:focus {
+outline-style:none;
+}
+ul.navBar a, ul.navBar li.dis a:hover, ul.navBar li.sep a:hover {
+	display:block;
+	vertical-align:middle;
+	border-style:none;
+	text-align:left;
+	padding:2px 5px 2px 10px;
+	_padding-left:0;
+	font:normal 15px Trebuchet MS,Tahoma;
+	color: #cccccc;
+	text-decoration:none;
+	cursor:default;
+}
+ul.navBar span{
+	overflow:hidden;
+}
+ul.navBar li {
+	float:left;
+}
+ul.navBar ul li {
+	float:none;
+}
+ul.navBar ul a {
+	text-align:left;
+	white-space:nowrap;
+}
+ul.navBar li.sep{
+	text-align:left;
+	padding:0px;
+	line-height:0;
+	height:100%;
+}
+ul.navBar li.sep span{
+	float:none;	padding-right:0;
+	width:3px;
+	height:100%;
+	display:inline-block;
+}
+ul.navBar ul li.sep span{
+	width:100%;
+	height:3px;
+}
+ul.navBar li:hover{
+	position:relative;
+}
+ul.navBar li:hover>a{
+	border-style:none;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+ul.navBar li a:hover{
+	position:relative;
+	border-style:none;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+ul.navBar li.dis a {
+	color: #666 !important;
+}
+ul.navBar img {border: none;float:left;_float:none;margin-right:2px;width:16px;
+height:16px;
+}
+ul.navBar ul img {width:16px;
+height:16px;
+}
+ul.navBar img.over{display:none}
+ul.navBar li.dis a:hover img.over{display:none !important}
+ul.navBar li.dis a:hover img.def {display:inline !important}
+ul.navBar li:hover > a img.def  {display:none}
+ul.navBar li:hover > a img.over {display:inline}
+ul.navBar a:hover img.over,ul.navBar a:hover ul img.def,ul.navBar a:hover a:hover ul img.def,ul.navBar a:hover a:hover a:hover ul img.def,ul.navBar a:hover a:hover img.over,ul.navBar a:hover a:hover a:hover img.over,ul.navBar a:hover a:hover a:hover a:hover img.over{display:inline}
+ul.navBar a:hover img.def,ul.navBar a:hover ul img.over,ul.navBar a:hover a:hover ul img.over,ul.navBar a:hover a:hover a:hover ul img.over,ul.navBar a:hover a:hover img.def,ul.navBar a:hover a:hover a:hover img.def,ul.navBar a:hover a:hover a:hover a:hover img.def{display:none}
+ul.navBar a:hover ul,ul.navBar a:hover a:hover ul,ul.navBar a:hover a:hover a:hover ul{display:block}
+ul.navBar a:hover ul ul,ul.navBar a:hover a:hover ul ul{display:none}
+ul.navBar span{
+	display:block;
+	background-image:url(../images/arr_white.gif);
+	background-position:right center;
+	background-repeat: no-repeat;
+  padding-right:12px;
+}
+ul.navBar li:hover > a > span{
+  background-image:url(../images/arrv_white.gif);
+}
+ul.navBar a:hover span{	
+  _background-image:url(../images/arrv_white.gif);
+}
+ul.navBar ul span,ul.navBar a:hover table span{
+  background-image:url(../images/arr_white.gif);
+}
+
+/* === Vertical navigation Menu === */
+.navMenu {
+  position:absolute;
+	vertical-align:middle;
+	border-style:none;
+	text-align:left;
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px;
+}
+.navMenu ul {
+  list-style:none; white-space:nowrap; 
+  text-align:left; background:#fff; 
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px;
+}
+.navMenu ul ul {
+  position: absolute; 
+  left: -99999px;
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px;
+}
+.navMenu li {
+  list-style:none; 
+  display:inline;
+}
+.navMenu li a {
+	margin: 0px 0px 0px 0px;
+  padding: 0px 20px 0px 10px;
+}
+.navMenu a {
+  display:block; font:normal 13px verdana,arial,sans-serif; background:#c9c9a7;
+  color:#000; line-height:22px; text-decoration:none; 
+  border: 1px solid #fff; border-width: 1px 1px 0px 0px;
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 20px 0px 10px;
+}
+.navMenu li a.navMenuItem {
+  background: url(../images/arrv_red.gif) no-repeat right top;
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+  background-color:#c9c9a7;
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 20px 0px 10px;
+}
+.navMenu li a.navMenuItem:hover {
+  background: url(../images/arr_red.gif) no-repeat right top;
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+  background-color:#dfc184;
+	margin: 0px 0px 0px 0px; 
+  padding: 0px 20px 0px 10px;
+}
+.navMenu li a:hover {background-color:#b3ab79; color:#000;} 
+.navMenu li:hover > a {background-color:#b3ab79; color:#000;}
+.navMenu ul li:hover > ul {left:100%; margin: -25px 0px 0px 0px; }
+
+/* flat list original idea by Murray Nuttall */
+ul.flat-list, ol.flat-list {
+  margin-left: 0;
+}
+ul.flat-list li, ol.flat-list li {
+  display: inline;
+  padding-right:8px;
+}
+.flat-list a:hover {
+	color: blue;
+}
+/* crumbs extends flat list */
+.crumbs li {
+  color: #436464;
+}
+.crumbs li .current {
+  color: #333;
+}
+.crumbs a {
+  background-image:url(../images/double_arr.gif);
+	background-position:right center;
+	background-repeat: no-repeat;
+  padding-right:13px;
+	font:normal 15px Trebuchet MS, Tahoma;
+	text-decoration: none;
+}
+
+/*** navMenu - different widths ***/
+.simpleMenu ul {
+  list-style: none; 
+  margin-top: 0; 
+  font-family: georgia, serif;
+  padding-left: 5px;
+}
+.simpleMenu li {
+	margin: 14px 0px 0px 0px; 
+}
+.simpleMenu ul li span {
+display: none;
+}
+
+.simpleMenu a {
+  text-decoration: none;
+  padding-left: 10px;
+  height: 24px;
+  display: text-block;
+}
+
+/*** navMenu - items indexes ***/
+.moveMenuItem a:hover {
+  padding-left: 0px;
+}

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@font-face {
+ font-family: 'MgOpenCosmeticaRegular';
+ src: url('../fonts/mgopencosmeticaregular-webfont.eot');
+ src: local('?'), url('../fonts/mgopencosmeticaregular-webfont.woff') format('woff'), url('../fonts/mgopencosmeticaregular-webfont.ttf') format('truetype'), url('../fonts/mgopencosmeticaregular-webfont.svg#webfont5uRnbj8c') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body { font-family:Verdana, sans-serif; }
+/* body { font-family:Verdana, sans-serif; background:url("../images/blackback.png") repeat-x; } */
+
+/* **************** CONTENT OBJECTS ***************** */
+
+/* ====== Default spacing ====== */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote { padding:10px; }
+h1, h2, h3, h4, h5, h6, img { padding-bottom:0px; }
+pre { margin: 10px; }
+table h1, table h2, table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl { padding:0; }
+/* ====== Elements ====== */
+img{display:block;}
+em{font-style: italic;}
+strong{font-weight:bold;}
+hr{border: 5px solid #e2e2e2; border-width: 0 0 5px 0; margin: 20px 10px 10px 10px;}
+code{color:#0B8C8F;}
+
+.important a{font-weight:bold;}/* what is this? */
+/* links */
+a {color: #2c4460; text-decoration: none;}
+a:focus, a:hover {text-decoration: underline;}
+a:focus{background-color:#FFFFCC;}
+a:visited { color:#005a9c; }
+/* ====== Lists ======*/
+/* numbered list */
+ol.simpleList li{list-style-type: decimal; margin-left:40px;}
+/* standard list */
+ul.simpleList li{list-style-type:disc; margin-left:40px;}
+/* ====== blockquote ====== */
+cite{display:block; text-align:right; padding-top: 10px;}
+/* ====== callout ====== */
+.callout{font-size:189%;color:#999999; font-style:italic;}
+.callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%;}
+.callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold;}
+.callout span.quotLast{vertical-align:middle;}
+/* ====== image treatments (get more from jason santa maria) ====== */
+.caption{font-size:13px; color:#666666; font-style:italic;padding-top:0;}
+/* will need to either
+1. find a way to capture the width of the caption in the width of the image or flash
+2. Set some default widths, mby use flickr widths?
+*/
+/* ====== special formatting classes ====== */
+.detail{color: #777; font-size:11px;display:block;}
+/* ====== images ====== */
+.icon{margin-right: 5px;}
+
+/* ==================================================================== */
+/* ====== Headings ====== */
+/* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
+h1, .h1 { font-family:MgOpenCosmeticaRegular, Georgia, Times New Roman, serif; font-size:240%; font-weight:bold; font-style: normal; color:#fff; line-height:1.1em; padding:0 0 18px 2px; }
+h2, .h2 { font-size:178%; font-weight:bold; font-style: normal; color:#777; border-bottom:5px solid #f9c84c; padding-left:0; }
+h3, .h3 { font-size:130%; font-weight:bold; font-style: normal; color:#777; }
+h4, .h4 { font-family:Georgia, Times New Roman, serif; font-size:178%; font-weight:bold; font-style: normal; color:#777; border-bottom:5px solid #f9c84c; padding-left:0; }
+h5, .h5 { font-size:130%; font-weight:bold; font-style: normal; color:#777; }
+h6, .h6 { font-size:108%; font-weight:bold; font-style: normal; color:#AE0345; border-bottom:1px solid #f9c84c; }
+/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
+
+/* links */
+a { color: #03c; text-decoration: none; }
+a:focus, a:hover { border-bottom:1px solid #03c; }
+a:focus { background-color:#ffffcc; }
+a:visited { color:#03c; }
+/* ====== Lists ======*/
+/* numbered list */
+ol.simpleList li { list-style-type: decimal; margin-left:40px; }
+/* standard list */
+ul.simpleList li { list-style-type:disc; margin-left:40px; }
+/* ====== Tables ====== */
+.data { padding: 20px; position:relative; zoom:1; vertical-align: top; border-right:solid 1px transparent;/* border fixes a FF2 bug which causes the data table to overlay its borders*/ }
+.data table { width:100%; border:1px solid #AE0345; }
+th, td { vertical-align:top; border:1px solid #AE0345; }
+.txtC, .data .txtC td, .data .txtC th { text-align:center; }
+.txtL, .data .txtL td, .data .txtL th { text-align:left; }
+.txtR, .data .txtR td, .data .txtR th { text-align:right; }
+.txtT, .data .txtT td, .data .txtT th { vertical-align:top; }
+.txtB, .data .txtB td, .data .txtB th { vertical-align:bottom; }
+.txtM, .data .txtM td, .data .txtM th { vertical-align:middle; }
+.data th, .data td { padding:3px 20px }
+.data thead tr { background-color: #fff0f8; }
+.data th { color: #000; font-weight:bold }
+/* specification table - extends data table */
+.spec { padding:10px; }
+.spec table { border-top: 1px solid #e2e2e2; border-bottom-color:#fff; border-left:none; border-right:none; }
+.spec th, .spec td { border:1px solid #e2e2e2; border-width: 1px 0; padding-left:0; }
+.spec .odd, .spec .even { background-color: #fff; }
+/* ====== blockquote ====== */
+cite { display:block; text-align:right; padding-top: 10px; }
+/* ====== callout ====== */
+.callout { font-size:189%; color:#999999; font-style:italic; }
+.callout cite { display:block; text-align:right; padding-top: 30px; font-size:69.25%; }
+.callout span.quot { font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold; }
+.callout span.quotLast { vertical-align:middle; }
+/* ====== image treatments (get more from jason santa maria) ====== */
+.caption { font-size:13px; color:#666666; font-style:italic; padding-top:0; }
+/* will need to either
+1. find a way to capture the width of the caption in the width of the image or flash
+2. Set some default widths, mby use flickr widths?
+*/
+/* ====== media ====== */
+.media { overflow:hidden; overflow:visible; zoom:1; margin:10px; }
+.media .img { float:left; margin-right: 10px; }
+.media .img img { display:block; }
+.media .imgExt { float:right; margin-left: 10px; }
+.media a.img:hover{ border-bottom:none;}
+/* ====== special formatting classes ====== */
+.f105 { font-size:105%; }
+.f125 { font-size:125%; }
+.blkbrd { border:1px solid #000; }
+.brd0 { border:none; }
+.thintop { border-top:1px solid #FFCC5F; }
+.thinbot { border-bottom:1px solid #FFCC5F; }
+.dashbot { border-bottom:1px dashed #FFCC5F; }
+.p0 { padding:0; }
+.p15 { padding:15px; }
+.pt0 { padding-top:0; }
+.pt5 { padding-top:5px; }
+.pt25 { padding-top:25px; }
+.pt30 { padding-top:30px; }
+.pl0 { padding-left:0; }
+.pl15 { padding-left:15px; }
+.pl25 { padding-left:25px; }
+.pl40 { padding-left:40px; }
+.pb10 { padding-bottom:10px; }
+.pb20 { padding-bottom:20px; }
+.pr10 { padding-right:10px; }
+.pr20 { padding-right:20px; }
+.pr30 { padding-right:30px; }
+.mt5 { margin-top:10px; }
+.mt15 { margin-top:15px; }
+.mt20 { margin-top:20px; }
+.mt25 { margin-top:25px; }
+.mb10 { margin-bottom:10px; }
+.mb30 { margin-bottom:30px; }
+.mr10 { margin-right:10px; }
+.mr15 { margin-right:15px; }
+.mr30 { margin-right:30px; }
+.mr25 { margin-right:25px; }
+.center { margin:0 auto; }
+.blk { background-color:#333 }
+.subhead { font-size:98%; text-transform:uppercase; color:#d9a063; padding:8px 0 12px 19px; }
+.lead { font-size:130%; line-height:1.2em; }
+.exec { font-family:MgOpenCosmeticaRegular, Georgia, Times New Roman, serif; font-size:130%; color:#999; line-height:0.8em; }
+.exec p { margin-left:85px; line-height:0.8em !important; }
+.exec a { color:#999; }
+.exec a:focus, a:hover { text-decoration: none; }
+.exec a:focus { background-color:#fff; }
+.exec a:visited { color:#999; }
+.execemail { font-size:80%; color:#5F92BF; }
+.officertitle { font-size:60%; text-transform:uppercase; }
+.title { font-size:116%; font-weight:bold; line-height:1.3em; font-family:Helvetica, Arial, sans-serif; padding-top:2px; }
+.daily{font-size:110%;font-weight:normal;line-height:1.2em;font-family:Helvetica, Arial, sans-serif;padding:5px;margin:8px 0;background-color:#f9f9f9;}
+.daily:hover{background-color:#FFFFE9;}
+.excerpt { font-size:90%; line-height:1.5; padding-top:0; }
+.links li { margin-bottom:10px; font-size:95%; font-weight:bold; }
+.execpic { display:inline; margin:0 0.2em -3.9em 0; }
+.icon { display:inline; margin:0 0.2em -0.2em 0; }
+.social { text-align: center; font-size:100%; }
+.social a { color:#777; }
+.social a:hover { border:none; }
+.social li { display:inline; }
+.listitem { margin-right:15px; }
+.eventtitle { font-size:116%; font-weight:bold; padding-top:3px; }
+.date { font-size:88%; color:#92b2c9; letter-spacing:0.1em; padding-bottom:0; }
+.drk { color:#006699 }
+.infoblock { border-top:1px solid #FFCC5F; background-color:#FFF5DF; }
+.hotred { color:#F36014; font-size:130%; font-style: normal; font-family:MgOpenCosmeticaRegular, Georgia, Times New Roman, serif; font-size:195%; }
+.footer { background-color:#333; color:#fff; padding:15px 5px; margin:0 auto; font-size:85%; }
+.adr p { padding:0; padding-top:5px; line-height:1.2em; }
+.nav li a { font:bold 113% Georgia, "Times New Roman", Times, serif; color:#f9f9f9; padding: 4px 0.8em 4px 0.8em; margin-right: 3px; background-color:#ffb400; border:1px solid #ffb400; }
+.nav li { display:inline; }
+.nav li a:link { color:#f9f9f9; }
+.nav li a:visited { color: #f9f9f9; }
+.nav li a:hover { background-color:#fa0; border-color:#f80; }
+.nav li a.current { background: #f9f9f9; color:#ffb400; border:1px solid #f8d684; }
+.nav { margin-top:10px; }
+.nav ul { padding:0; margin:0; }
+.mg { font-family:MgOpenCosmeticaRegular, Georgia, Times New Roman, serif; }
+.bull { font-size:70%; }
