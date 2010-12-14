@@ -15,8 +15,7 @@ group :development, :test do
   gem 'rspec-rails', ' >= 2.0.0.beta.22'
   gem 'cucumber'
   gem 'cucumber-rails'
-  gem 'spork'
+#  gem 'spork'  # not supported in Windows so far (2010, Dec 14).
   gem 'webrat'
   gem 'autotest'
 end
-
