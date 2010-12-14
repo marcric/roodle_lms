@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe User do
     context "when an user is created it has to have an e-mail address" do
       before(:each) do
