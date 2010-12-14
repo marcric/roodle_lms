@@ -11,7 +11,9 @@ gem 'devise', '1.1.5'
 # and rake tasks are available in development mode:
 
 group :development, :test do
+  gem 'rspec'
   gem 'rspec-rails', ' >= 2.0.0.beta.22'
+  gem 'cucumber'
   gem 'cucumber-rails'
   gem 'spork'
   gem 'webrat'
