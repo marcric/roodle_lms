@@ -24,24 +24,24 @@ describe User do
   end
 
   [:student, :teacher, :mentor, :patron].each do |role|
-    context "As a #{role} in the Student, Teacher, Mentor and Patron roles, I " do
+    context "As a #{role} roles, I " do
 
       [:user_name, :city, :country, :tz, :avatar].each do |attribute|
         it "should see #{attribute} from my colleagues: " do
-          pending
+          pending "Write failing test!"
         end
       end
 
       [:full_name, :email, :address].each do |attribute|
         it "should not see #{attribute} from my colleagues: " do
-          pending
+          pending "Write failing test!"
         end
       end
 
-      context "As a logged user in the Admin role, I should see from other users: " do
+      context "As a Admin role, I should see from other users: " do
         [:full_name, :email, :address].each do |attribute|
           it "should see #{attribute} " do
-            pending
+            pending "Write failing test!"
           end
         end
       end
