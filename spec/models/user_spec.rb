@@ -6,6 +6,13 @@ describe User do
     @user2 = User.create "Test2"
   end
 
+  describe "A Role" do
+    it "should be associated with a user" do
+      User.new.should respond_to(:role)
+      pending "needs to be associated and validated with a default role"
+    end
+  end
+
   context "when an user is created it has to have an e-mail address" do
 
     it "validates the user attributes" do
@@ -50,11 +57,6 @@ describe User do
     end
   end
 
-  describe "roles association" do
-    it "have a roles attribute" do
-      User.new.should respond_to(:role)
-    end
-  end
 
 end
 
