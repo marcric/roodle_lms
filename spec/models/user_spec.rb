@@ -4,7 +4,8 @@ describe User do
   before(:each) do
     @user = User.create! :email => "test@test.com", :password => '123abc'
     @user2 = User.create "Test2"
-  end 
+  end
+
   context "when an user is created it has to have an e-mail address" do
 
     it "validates the user attributes" do
@@ -24,7 +25,7 @@ describe User do
   end
 
   [:student, :teacher, :mentor, :patron].each do |role|
-    context "As a #{role} roles, I " do
+    context "In the #{role} roles, I " do
 
       [:user_name, :city, :country, :tz, :avatar].each do |attribute|
         it "should see #{attribute} from my colleagues: " do
@@ -38,7 +39,7 @@ describe User do
         end
       end
 
-      context "As a Admin role, I should see from other users: " do
+      context "In the Admin role, I " do
         [:full_name, :email, :address].each do |attribute|
           it "should see #{attribute} " do
             pending "Write failing test!"
