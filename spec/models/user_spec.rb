@@ -50,6 +50,12 @@ describe User do
     end
   end
 
+  describe "roles association" do
+    it "have a roles attribute" do
+      User.new.should respond_to(:role)
+    end
+  end
+
 end
 
 
