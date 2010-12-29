@@ -18,4 +18,5 @@ group :development, :test do
 #  gem 'spork'  # not supported in Windows so far (2010, Dec 14).
   gem 'webrat'
   gem 'autotest'
+  gem 'rcov'
 end
