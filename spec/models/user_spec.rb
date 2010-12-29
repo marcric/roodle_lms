@@ -45,6 +45,7 @@ describe User do
           pending "Write failing test!"
         end
       end
+    end
 
       context "In the Admin role, I " do
         [:full_name, :email, :address].each do |attribute|
@@ -54,7 +55,6 @@ describe User do
         end
       end
 
-    end
   end
 
 
