@@ -8,3 +8,4 @@ tmp/**/*
 *.swo
 *.swp
 sandbox/
+coverage/
