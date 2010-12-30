@@ -31,33 +31,5 @@ describe User do
     end
   end
 
-  [:student, :teacher, :mentor, :patron].each do |role|
-    context "In the #{role} roles, I " do
-
-      [:user_name, :city, :country, :tz, :avatar].each do |attribute|
-        it "should see #{attribute} from my colleagues: " do
-          pending "Write failing test!"
-        end
-      end
-
-      [:full_name, :email, :address].each do |attribute|
-        it "should not see #{attribute} from my colleagues: " do
-          pending "Write failing test!"
-        end
-      end
-    end
-
-      context "In the Admin role, I " do
-        [:full_name, :email, :address].each do |attribute|
-          it "should see #{attribute} " do
-            pending "Write failing test!"
-          end
-        end
-      end
-
-  end
-
-
 end
-
 
