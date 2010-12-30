@@ -13,6 +13,6 @@ class User < ActiveRecord::Base
 
   private
     def assign_default_role
-      self.roles << Role.where(:title => "student").first
+      roles << Role.where(:title => "student").first
     end
 end
