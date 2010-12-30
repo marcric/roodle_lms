@@ -11,12 +11,12 @@ gem 'devise', '1.1.5'
 # and rake tasks are available in development mode:
 
 group :development, :test do
-  gem 'rspec'
-  gem 'rspec-rails', ' >= 2.0.0.beta.22'
-  gem 'cucumber'
-  gem 'cucumber-rails'
-#  gem 'spork'  # not supported in Windows so far (2010, Dec 14).
-  gem 'webrat'
+  gem 'rspec', '~> 2.3'
+  gem 'rspec-rails', '~> 2.3'
+  # gem 'cucumber'
+  # gem 'cucumber-rails'
+  #  gem 'spork'  # not supported in Windows so far (2010, Dec 14).
+  # gem 'webrat'
   gem 'autotest'
   gem 'rcov'
 end
