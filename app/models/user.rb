@@ -7,5 +7,12 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
 
-  has_one :role
+  has_and_belongs_to_many :roles
+
+  after_create :assign_default_role
+
+  private
+    def assign_default_role
+      self.roles << Role.where(:title => "student").first
+    end
 end
