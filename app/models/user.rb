@@ -13,6 +13,10 @@ class User < ActiveRecord::Base
 
   private
     def assign_default_role
+<<<<<<< HEAD
       roles << Role.where(:title => "student").first
+=======
+      self.roles << Role.where(:title => "student").first
+>>>>>>> 64f5edf36882575a3e0dff303ea42b5cdbd1ddc0
     end
 end
