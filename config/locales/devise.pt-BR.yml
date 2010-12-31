@@ -1,0 +1,39 @@
+en:
+  errors:
+    messages:
+      not_found: "não encontrado"
+      already_confirmed: "já foi confirmado"
+      not_locked: "não está bloqueado"
+
+  devise:
+    failure:
+      unauthenticated: 'Você precisa se logar ou se cadastrar antes de continuar.'
+      unconfirmed: 'Você precisa confirmar o seu cadastramento antes de continuar.'
+      locked: 'Seu usuário está bloqueado.'
+      invalid: 'email ou senha inválidos.'
+      invalid_token: 'Chave de autenticação inválida.'
+      timeout: 'Sua sessão expirou, favor se logar novamente para continuar.'
+      inactive: 'Seu usuário ainda não foi ativado.'
+    sessions:
+      signed_in: 'Logon efetuado com sucesso.'
+      signed_out: 'Logoff efetuado com sucesso.'
+    passwords:
+      send_instructions: 'Você vai receber um email com instruções sobre como resetar sua senha em alguns minutos.'
+      updated: 'Sua senha foi alterada com sucesso. Você está logado.'
+    confirmations:
+      send_instructions: 'Você vai receber um email com instruções sobre como confirmar seu cadastramento em alguns minutos.'
+      confirmed: 'Seu cadastramento foi confirmado com sucesso. Você está logado.'
+    registrations:
+      signed_up: 'Você foi cadastrado com sucesso. Se esta opção foi habilitada, uma confirmação foi enviada para o seu email.'
+      updated: 'Você atualizou o seu cadastro com sucesso.'
+      destroyed: 'Tchau! Seu cadastro foi cancelado com sucesso. Esperamos noticias suas em breve.'
+    unlocks:
+      send_instructions: 'Você vai receber um email com instruções de como desbloquear o seu usuário em poucos minutos.'
+      unlocked: 'Seu usuário foi desbloqueado com sucesso. Você está logado.'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instruções de confirmação'
+      reset_password_instructions:
+        subject: 'Instruções para resetar sua senha'
+      unlock_instructions:
+        subject: 'Instruções para desbloqueio do usuário'

@@ -4,9 +4,6 @@ class CreateRoles < ActiveRecord::Migration
       t.string :title
       t.timestamps
     end
-
-    puts "Adding default role (student) to table ..."
-    Role.create!(:title => "student")
   end
 
   def self.down
